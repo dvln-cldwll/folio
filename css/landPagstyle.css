@@ -26,7 +26,6 @@ body{position: absolute;
     width: 75%;
     margin: 0 auto;
 margin-top: 50px;
-margin-left: 185px;
     padding: 0; /* Clears unordered list default of 40px */
 }
 .clear:after {
