@@ -22,10 +22,15 @@ body{position: absolute;
 }
 
 #grid {
-    position: relative;
-    width: 75%;
-    margin: 0 auto;
-  padding: 0; /* Clears unordered list default of 40px */
+  width: 70%;
+  margin: 100px 0 0 30%;
+  padding: 20px 2%;
+  -o-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 .clear:after {
     content: "";
