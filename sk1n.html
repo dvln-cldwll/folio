@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>sk1n</title>
+<meta name="description" content="Hexa Template by Codin @ Codesmite.com">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" type="text/css" href="css/workStyle.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="processing.js"></script>
+</head>
+<body>
+<header class = "blue"> 
+            <div class="logo"> 
+             <div class="logo"> 
+             <a href="landPag.html" style="font-size: 3vw">Home</a> 
+              <a href="mainGal.html" style="font-size: 3vw">Main Gallery</a>
+              <a href="2018subGal.html" style="font-size: 3vw">2018</a>
+            </div>
+</header>
+	 <ul id="grid" class="clear">
+     <li>
+             <div class="hexagona"></div>
+     </li>
+	 	 <li>
+             <a href="#item1">
+                 <div id= "wrapperlg">
+	 	 	 <div class="hexagon">
+                <img src="images/mainGal/2018_avi.jpg" alt="Lorem Ipsum"/>
+                    <div class="overlay">
+                    <p class = "text" style ="font-size:3vw">sk1n (Processing Sketch)</p>
+                    </div> 
+             </div>
+
+                 </div>
+            </a>
+	 	 </li>		
+		 <li>
+             <div class="hexagona"></div>
+     </li>
+        
+	 </ul>
+
+     <div id="item1">
+    <div class="left">
+      <a href="#"><div class="button"><p>CLOSE &gt;&gt;</p></div></a>
+      <h2>Sk1n</h2>
+      <p>
+       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vel molestie orci. Nulla egestas libero tellus, rhoncus facilisis nulla eleifend eget. Donec quis nunc sodales turpis gravida consectetur eu ut diam. Vestibulum ut ante justo. Nunc ac tincidunt turpis. Duis at massa consectetur, porta augue sed, elementum est. In hac habitasse platea dictumst. Duis sed sollicitudin risus. Donec fermentum laoreet odio. Nullam nec mi et mauris ultrices dictum. Vestibulum malesuada mattis ornare. Ut sit amet tellus nec neque tempus scelerisque. Etiam pretium felis et augue efficitur, eu pharetra sapien consequat. Aenean imperdiet ante mi, eget condimentum mauris imperdiet pulvinar. Mauris ut suscipit eros, sit amet congue erat. Fusce nec augue est. 
+     </p>
+   </div>
+   <div class="right">
+    <script type ="text/processing">
+String time = "000";
+int initialTime;
+int interval = 1000;
+
+
+void setup() {
+    size(700, 700);
+    background(0, 0, 0);
+    noCursor();
+    noFill(); 
+      initialTime = millis();
+
+  }
+  
+  void draw() {
+   tone59_8C();
+   tone76_9C();
+  tone478C();
+   tone323_1C();
+   tone52_5C();
+   tone7514C();
+   if (millis() - initialTime > interval)
+  {
+    time = nf(int(millis()/3500), 3);
+    initialTime = millis();
+  }
+  if (int(time) % 10 == 0){
+    background(0);
+  }
+  }
+  
+  void tone478C(){
+  stroke(117,60,41,10); //478 C
+    
+      arc(random(0, width),
+        random(0,height), 
+        random(width/2, height/2), 
+        random(width+2, height+2),   
+        random(0,width+2),
+        random(0,height+2));
+  }     
+  void  tone76_9C(){
+    pushMatrix();
+      translate(width/2, height/2);
+      rotate((millis() / 120.0) *PI);
+          stroke(226,203,193,10); //76_9 C
+            line(random(0,height/2),
+              random(0,width/2),
+              random(0,width*2),
+              random(0,height*2)); 
+    popMatrix();
+  }
+
+  void tone323_1C(){
+    pushMatrix();
+     rotate(TWO_PI/180.0);
+       stroke(54,41,35,10); //323_1 C
+          rect(random(0,height),
+            random(0,800),
+            random(width*4), 
+            random(width*2));
+    popMatrix();
+  }
+  void tone52_5C() {
+    stroke(190,144,106,10); //52_5 C
+     triangle(random(0, width-100),
+        random(0,height-100), 
+        random(width*2, height/2), 
+        random(width+300, height+300),
+        random(200,height),
+        random(width*4,600));
+        
+  } 
+  void tone7514C (){
+   stroke(217,169,144,10); //7514 C
+    ellipse(random(0,width),
+        random(0,height),
+        random(width/2), 
+        random(width/2));
+  }    
+  void  tone59_8C(){
+    stroke(214,185,166,10); //59_8 C 
+      quad(random(0, 2000),
+        random(0,1000), 
+        random(width*2, height*2), 
+        random(width+150, height+150),
+        random(width*6,height*6),
+        random(height*4,width*4),
+        random(width+400,height+400),
+        random(height+600,width+600));
+  }
+</script> 
+
+<canvas id ="sketch"></canvas>
+
+
+</div>
+  </div>
+
+
+</body>
+</html>
