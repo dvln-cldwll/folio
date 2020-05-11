@@ -161,7 +161,6 @@ a {
     width:100%;
     margin: 0 auto;
     margin-top: 30px;
-    padding: 0; /* Clears unordered list default of 40px */
 }
 
 #grid li {
