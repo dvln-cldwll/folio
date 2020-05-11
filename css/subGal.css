@@ -358,6 +358,7 @@ color: #E8F1F2;
 .right img{
   height: auto;
     width: 100%;
+   margin: auto;
   }
 .right iframe{
    height: auto;
@@ -376,6 +377,7 @@ color: #E8F1F2;
  .right img{
   height: auto;
     width: 100%;
+    margin: auto;
   }
  }
 
