@@ -131,7 +131,7 @@ a {
 
 .right img {
   height: auto;
-  width: 100%;
+  width: 90%;
 }
 
 .button {
@@ -239,7 +239,7 @@ a {
 
 img{
   margin-top: 50px;
-width:125%; 
+margin-right:50px;
 }
 #grid li .hexagon img {
   left:-100%;
