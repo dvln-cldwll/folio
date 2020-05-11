@@ -397,14 +397,14 @@ color: #E8F1F2;
   }
   .right img{
   height: auto;
-    width: 100%;
+    width: 90%;
   }
 
   /* Grid */
   #grid {
     margin: 0 auto;
     width: 95%;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 }
 
