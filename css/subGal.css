@@ -49,6 +49,7 @@ body {
   overflow-y: auto;
   background: #FFFFFF;
   font-size: 16px;
+  margin: 0;
 }
 
 a {
