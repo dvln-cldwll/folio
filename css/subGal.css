@@ -297,6 +297,8 @@ width:125%;
   font-family: 'Roboto Condensed';
   padding: 0 10px;
   font-size: 1em;
+  margin: auto;
+  width: 50%;
 }
 
 #title h1 {
