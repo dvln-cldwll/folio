@@ -11,7 +11,9 @@
 
 
 /* Layout */
-
+html{
+ overflow-x:hidden; 
+}
 .logo a{
   font-family: 'Roboto', sans-serif;
   font-size:1em;
