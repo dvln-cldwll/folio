@@ -11,9 +11,7 @@
 
 
 /* Layout */
-body{
- overflow-x:hidden; 
-}
+
 .logo a{
   font-family: 'Roboto', sans-serif;
   font-size:1em;
@@ -38,6 +36,8 @@ body{
     padding-bottom: 10px;
   background-color:#247BA0;
   width: 100%;
+  overflow-x:hidden; 
+
 }
 
 
