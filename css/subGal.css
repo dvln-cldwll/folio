@@ -8,7 +8,9 @@
 -Media Queries
 ------------------------------------------
 */
-
+html{
+  overflow-x:hidden;
+}
 
 /* Layout */
 
