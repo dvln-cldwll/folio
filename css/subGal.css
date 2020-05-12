@@ -35,7 +35,7 @@
   padding-top: 10px;
     padding-bottom: 10px;
   background-color:#247BA0;
-  width: 100%;
+  width: 200%;
 }
 
 
@@ -376,6 +376,9 @@ color: #E8F1F2;
 }
 
 @media only screen and (max-width: 870px) {
+  .logo{
+    width:100%;
+  }
    #grid {
     margin: 0 auto;
     width: 80%;
@@ -399,6 +402,9 @@ color: #E8F1F2;
  }
 
 @media only screen and (max-width: 767px) {
+  .logo{
+    width:100%;
+  }
  
   /* layout */
   
@@ -440,6 +446,9 @@ color: #E8F1F2;
 
 @media only screen and (max-width: 550px) {
   .blue{
+    width:100%;
+  }
+  .logo{
     width:100%;
   }
   .button{
