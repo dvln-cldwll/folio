@@ -501,6 +501,11 @@ width:80%;
 
 
 @media only screen and (max-width: 550px) {
+   #grid {
+     position: relative;
+    width:85%;
+    margin-top: 30px;
+  }
   .blue{
     width:100%;
   }
