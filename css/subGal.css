@@ -163,10 +163,14 @@ width:90%;
   -webkit-transition: all 0.3s linear 0s; 
   transition: all 0.3s linear 0s;
   background: #006494;
+  color: #E8F1F2;
+
 }
 
 .button:hover {
   background: #199FD5;
+    color: #E8F1F2;
+
 }
 
 /* Hexagonal Grid */
