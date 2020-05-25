@@ -136,6 +136,13 @@ a {
 .right {
   left: 50%;
   overflow: hidden;
+
+}
+
+#sketch{
+margin-top: 30px;
+width:90%;
+
 }
 
 .right img {
@@ -149,7 +156,7 @@ a {
   width: auto;
   padding: 10px 10px;
   border-radius: 10px;
-  margin: 5px;
+  margin:20px 25px 0 25px;
   -o-transition: all 0.3s linear 0s; 
   -moz-transition: all 0.3s linear 0s; 
   -ms-transition: all 0.3s linear 0s; 
@@ -166,7 +173,7 @@ a {
 
 #grid {
     position: relative;
-    width:75%;
+    width:90%;
     margin-top: 30px;
 }
 
@@ -248,6 +255,13 @@ img{
   margin-top: 50px;
 margin-right:50px;
 }
+
+.embed-container{
+   height: auto;
+    width: 90%;
+    margin-top: 50px;
+}
+
 #grid li .hexagon img {
   left:-100%;
   right:-100%;
@@ -298,6 +312,8 @@ margin-right:50px;
   font-family: Roboto Condensed;
   text-align: center;
   font-size: 1.2em;
+  color: #13293d;
+
 }
 
 .left p {
@@ -305,6 +321,7 @@ margin-right:50px;
   font-size: 1em;
   margin: auto;
   width: 90%;
+  color: #13293d;
 }
 
 #title h1 {
@@ -359,10 +376,9 @@ color: #E8F1F2;
 
 @media only screen and (max-width: 1100px) {
    #grid {
-    margin: 0 auto;
-    width: 70%;
-    margin-top: 20px;
-    margin-right:30px;
+     position: relative;
+    width:90%;
+    margin-top: 30px;
   }
   .blue{
     width:100%;
@@ -373,12 +389,14 @@ color: #E8F1F2;
   }
 .right img{
   height: auto;
-    width: 100%;
-   margin: auto;
+    width: 90%;
+   margin-top: 50px;
   }
-.right iframe{
+.embed-container{
    height: auto;
-    width: 100%;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 30px;
 }
 
 }
@@ -387,26 +405,36 @@ color: #E8F1F2;
   .logo{
     width:100%;
   }
-   #grid {
-    margin: 0 auto;
-    width: 95%;
-    margin-top: 20px;
-    margin-right:30px;
+  #grid {
+     position: relative;
+    width:90%;
+    margin-top: 30px;
   }
   .blue{
     width:100%;
   }
   /* Layout */
   
- .right canvas {
-    height: auto;
-    width: 100%;
-  }
+ 
+.right{
+  margin-top: 20px;
+  margin-left:20px;
+}
+
+
  .right img{
   height: auto;
-    width: 100%;
+    width: 90%;
     margin: auto;
+    margin-top: 60px;
   }
+.embed-container{
+   height: auto;
+    width: 80%;
+    margin-top: 20px;
+}
+
+
  }
 
 @media only screen and (max-width: 767px) {
@@ -434,21 +462,28 @@ color: #E8F1F2;
 
   .right canvas {
     height: auto;
-    width: 100%;
+    width: 90%;
   }
   .right img{
     padding:20px;
   height: auto;
     width: 90%;
+    margin-top: 30px;
   }
 
   /* Grid */
   #grid {
-    margin: 0 auto;
-    width: 80%;
-    margin-top: 20px;
-    margin-right:30px;
+     position: relative;
+    width:90%;
+    margin-top: 30px;
   }
+.left p {
+font-size: .8em;
+width:80%;
+
+}
+
+
 }
 
 
@@ -461,6 +496,7 @@ color: #E8F1F2;
   }
   .button{
     float:right;
+    padding-right:20px;
   }
   .left{
     margin:auto;
@@ -469,12 +505,17 @@ color: #E8F1F2;
   }
   .right canvas {
     height: auto;
-    width: 100%;
+    width: 90%;
   }
   /* Layout */
   body {
 margin:0; 
  }
+ #grid {
+     position: relative;
+    width:90%;
+    margin-top: 30px;
+  }
  }
 
 
