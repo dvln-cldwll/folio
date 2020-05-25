@@ -495,7 +495,8 @@ color: #E8F1F2;
 
   }
  .left p {
-font-size: .4em;
+ line-height:150%;
+font-size: .5em;
 width:80%;
 
 }
