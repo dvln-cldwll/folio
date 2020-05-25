@@ -325,7 +325,7 @@ margin-right:50px;
 }
 .left p2 {
   font-family: 'Roboto Condensed';
-  font-size: .6em;
+  font-size: .8em;
   margin: auto;
   width: 90%;
   color: #13293d;
@@ -490,6 +490,11 @@ font-size: .8em;
 width:80%;
 
 }
+.left p2 {
+font-size: .7em;
+width:80%;
+
+}
 
 
 }
@@ -511,19 +516,16 @@ width:80%;
     margin-bottom: 30px;
     width:90%;
   }
-  .right canvas {
+  .right img {
     height: auto;
-    width: 90%;
+    width: 85%;
+      overflow-x:hidden;
+
   }
   /* Layout */
   body {
 margin:0; 
- }
- #grid {
-     position: relative;
-    width:90%;
-    margin-top: 30px;
-  }
+ 
  }
 
 
