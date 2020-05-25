@@ -163,7 +163,6 @@ width:90%;
   -webkit-transition: all 0.3s linear 0s; 
   transition: all 0.3s linear 0s;
   background: #006494;
-  color: #E8F1F2;
 
 }
 
@@ -338,11 +337,11 @@ margin-right:50px;
   color: #575757;
 }
 
-.button p,  {
+.button p  {
   margin: 0;
   font-family: 'Roboto Condensed';
   color: #E8F1F2;
-  font-size: 1em;
+  font-size: .8em;
   float:right;
   
 }
@@ -506,7 +505,9 @@ font-size: .5em;
 width:80%;
 
 }
-
+.button p{
+    color: #e8f1f2;
+  }
  
  }
 
