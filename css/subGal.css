@@ -402,6 +402,17 @@ color: #E8F1F2;
     margin-top: 50px;
     margin-left: 30px;
 }
+.left p {
+font-size: .8em;
+width:80%;
+
+}
+  .left p2 {
+font-size: .65em;
+width:80%;
+
+}
+
 
 }
 
@@ -498,16 +509,7 @@ color: #E8F1F2;
     width: 85%;
 
   }
- .left p {
-font-size: .8em;
-width:80%;
-
-}
-  .left p2 {
-font-size: .65em;
-width:80%;
-
-}
+ 
 
  
  }
