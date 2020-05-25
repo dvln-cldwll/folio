@@ -478,7 +478,7 @@ width:80%;
 
 }
   .left p2 {
-font-size: .7em;
+font-size: .65em;
 width:80%;
 
 }
@@ -487,7 +487,7 @@ width:80%;
 
 @media only screen and (max-width: 550px) {
    #grid{
-    width:80%;
+    width:90%;
   }
   
   .blue{
