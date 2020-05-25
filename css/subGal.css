@@ -156,7 +156,7 @@ width:90%;
   width: auto;
   padding: 10px 10px;
   border-radius: 10px;
-  margin:20px 25px 0 25px;
+  margin:25px;
   -o-transition: all 0.3s linear 0s; 
   -moz-transition: all 0.3s linear 0s; 
   -ms-transition: all 0.3s linear 0s; 
@@ -318,6 +318,7 @@ margin-right:50px;
 
 .left p {
   font-family: 'Roboto Condensed';
+  line-height:175%;
   font-size: .8em;
   margin: auto;
   width: 90%;
@@ -333,7 +334,7 @@ margin-right:50px;
   color: #575757;
 }
 
-.button p, input[type="submit"].button {
+.button p,  {
   margin: 0;
   font-family: 'Roboto Condensed';
   color: #E8F1F2;
