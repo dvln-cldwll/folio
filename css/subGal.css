@@ -383,11 +383,7 @@ color: #E8F1F2;
 /* Media Queries */
 
 @media only screen and (max-width: 1100px) {
-   #grid {
-     position: relative;
-    width:90%;
-    margin-top: 30px;
-  }
+   
   .blue{
     width:100%;
   }
@@ -413,11 +409,7 @@ color: #E8F1F2;
   .logo{
     width:100%;
   }
-  #grid {
-     position: relative;
-    width:90%;
-    margin-top: 30px;
-  }
+ 
   .blue{
     width:100%;
   }
@@ -480,11 +472,7 @@ color: #E8F1F2;
   }
 
   /* Grid */
-  #grid {
-     position: relative;
-    width:90%;
-    margin-top: 30px;
-  }
+ 
 .left p {
 font-size: .8em;
 width:80%;
@@ -501,11 +489,7 @@ width:80%;
 
 
 @media only screen and (max-width: 550px) {
-   #grid {
-     position: relative;
-    width:85%;
-    margin-top: 30px;
-  }
+  
   .blue{
     width:100%;
   }
