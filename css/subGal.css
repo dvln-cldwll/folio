@@ -318,7 +318,7 @@ margin-right:50px;
 
 .left p {
   font-family: 'Roboto Condensed';
-  font-size: 1em;
+  font-size: .8em;
   margin: auto;
   width: 90%;
   color: #13293d;
@@ -495,7 +495,7 @@ color: #E8F1F2;
 
   }
  .left p {
-font-size: .6em;
+font-size: .4em;
 width:80%;
 
 }
