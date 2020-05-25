@@ -472,16 +472,7 @@ color: #E8F1F2;
   }
 
  
-.left p {
-font-size: .8em;
-width:80%;
 
-}
-  .left p2 {
-font-size: .55em;
-width:80%;
-
-}
 }
 
 
@@ -510,7 +501,16 @@ width:80%;
     width: 85%;
 
   }
-  /* Layout */
+ .left p {
+font-size: .8em;
+width:80%;
+
+}
+  .left p2 {
+font-size: .45em;
+width:80%;
+
+}
 
  
  }
