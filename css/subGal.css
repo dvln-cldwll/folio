@@ -17,6 +17,9 @@ html,body{
 }
 
 /* Layout */
+a:visited{
+  color:#13293D;
+}
 
 .logo a{
   font-family: 'Roboto', sans-serif;
