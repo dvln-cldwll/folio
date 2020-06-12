@@ -442,6 +442,11 @@ color: #E8F1F2;
  }
 
 @media only screen and (max-width: 767px) {
+  
+#grid{
+  width:90%;
+}
+
   .logo{
     width:100%;
   }
@@ -482,9 +487,7 @@ color: #E8F1F2;
 
 @media only screen and (max-width: 550px) {
      
-#grid{
-  width:80%;
-}
+
 
   .blue{
     width:100%;
