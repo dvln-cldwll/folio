@@ -134,6 +134,7 @@ a {
   width: 50%;
   overflow: auto;
   background: none;
+  text-align: center;
 }
 
 .right {
