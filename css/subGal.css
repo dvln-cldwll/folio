@@ -134,7 +134,7 @@ a {
   width: 50%;
   overflow: auto;
   background: none;
-  text-align: right;
+  text-align: center;
 }
 
 .right {
@@ -502,7 +502,7 @@ color: #E8F1F2;
   }
   .left{
     margin:auto;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     width:90%;
   }
   .right img {
