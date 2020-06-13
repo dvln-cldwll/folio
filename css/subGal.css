@@ -442,7 +442,9 @@ color: #E8F1F2;
  }
 
 @media only screen and (max-width: 767px) {
-  
+  #grid {
+   width: 85%; 
+  }
 
 
   .logo{
